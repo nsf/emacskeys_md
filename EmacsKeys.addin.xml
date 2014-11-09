@@ -1,0 +1,51 @@
+<ExtensionModel>
+    <Extension path = "/MonoDevelop/Ide/Commands">
+        <Category id = "EmacsKeys" _name="Emacs Keys">
+            <Command id = "Nsf.EmacsKeys.Commands.Mark"
+                     _label = "Mark"
+                     defaultHandler="Nsf.EmacsKeys.MarkHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoNextChar"
+                     _label = "Go To Next Character"
+                     defaultHandler="Nsf.EmacsKeys.GotoNextCharHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoPrevChar"
+                     _label = "Go To Previous Character"
+                     defaultHandler="Nsf.EmacsKeys.GotoPrevCharHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoNextWord"
+                     _label = "Go To Next Word"
+                     defaultHandler="Nsf.EmacsKeys.GotoNextWordHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoPrevWord"
+                     _label = "Go To Previous Word"
+                     defaultHandler="Nsf.EmacsKeys.GotoPrevWordHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoNextSubword"
+                     _label = "Go To Next Subword"
+                     defaultHandler="Nsf.EmacsKeys.GotoNextSubwordHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoPrevSubword"
+                     _label = "Go To Previous Subword"
+                     defaultHandler="Nsf.EmacsKeys.GotoPrevSubwordHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoNextLine"
+                     _label = "Go To Next Line"
+                     defaultHandler="Nsf.EmacsKeys.GotoNextLineHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoPrevLine"
+                     _label = "Go To Previous Line"
+                     defaultHandler="Nsf.EmacsKeys.GotoPrevLineHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoLineStart"
+                     _label = "Go To Line Start"
+                     defaultHandler="Nsf.EmacsKeys.GotoLineStartHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoLineEnd"
+                     _label = "Go To Line End"
+                     defaultHandler="Nsf.EmacsKeys.GotoLineEndHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoFileStart"
+                     _label = "Go To File Start"
+                     defaultHandler="Nsf.EmacsKeys.GotoFileStartHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.GotoFileEnd"
+                     _label = "Go To File End"
+                     defaultHandler="Nsf.EmacsKeys.GotoFileEndHandler" />
+            <Command id = "Nsf.EmacsKeys.Commands.Copy"
+                     _label = "Copy"
+                     defaultHandler="Nsf.EmacsKeys.CopyHandler" />
+        </Category>
+    </Extension>
+    <Extension path = "/MonoDevelop/Ide/StartupHandlers">
+        <Class class="Nsf.EmacsKeys.StartupHandler" />
+    </Extension>
+</ExtensionModel>
